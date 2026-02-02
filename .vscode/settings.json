@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.formatting.provider": "none",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "ruff.enable": true,
+  "ruff.format": true,
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

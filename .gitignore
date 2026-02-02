@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- VSCode ----
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# ---- Env secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Data & artifacts (never commit) ----
+data/cache/
+data/derived/
+runs/
+*.duckdb
+*.sqlite
+*.db
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# If you want to avoid committing notebook outputs:
+# (recommended: use nbstripout instead; see below)
+# notebooks/**.ipynb
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
