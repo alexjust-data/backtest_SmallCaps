@@ -15,6 +15,11 @@ QUOTES_RE = re.compile(
     r"^(?P<quoteset>quotes_p95|quotes_test)/(?P<symbol>[^/]+)/year=(?P<year>\d{4})/month=(?P<month>\d{2})/day=(?P<day>\d{2})/quotes\.parquet$"
 )
 
+# Trades: trades_ticks_2019_2025/<SYMBOL>/year=YYYY/month=MM/day=YYYY-MM-DD/<session>.parquet
+TRADES_RE = re.compile(
+    r"^(?P<era>trades_ticks_(?:2004_2018|2019_2025))/(?P<symbol>[^/]+)/year=(?P<year>\d{4})/month=(?P<month>\d{2})/day=(?P<day>\d{4}-\d{2}-\d{2})/(?P<session>[^/]+)\.parquet$"
+)
+
 
 @dataclass(frozen=True)
 class ParsedKey:
@@ -53,6 +58,20 @@ def parse_r2_key(key: str) -> Optional[ParsedKey]:
             month=int(m.group("month")),
             day=int(m.group("day")),
             era=None,
+            key=key,
+        )
+
+    m = TRADES_RE.match(key)
+    if m:
+        day_str = m.group("day")
+        day_int = int(day_str.split("-")[2])
+        return ParsedKey(
+            dataset=m.group("era"),
+            symbol=m.group("symbol"),
+            year=int(m.group("year")),
+            month=int(m.group("month")),
+            day=day_int,
+            era=m.group("era").replace("trades_ticks_", ""),
             key=key,
         )
 

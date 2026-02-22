@@ -1,0 +1,15 @@
+{
+  "bucket": "tsis-data",
+  "counts": {
+    "listed_objects_total": 22,
+    "recognized_objects": 22,
+    "unrecognized_objects": 0
+  },
+  "created_at": "2026-02-04T18:53:23.566885+00:00",
+  "endpoint": "https://1c485fe75c8be34cf211021abedc8105.r2.cloudflarestorage.com",
+  "format": "jsonl",
+  "prefixes": [
+    "ohlcv_intraday_1m/2019_2025/AABA/year=2019/month=01/",
+    "quotes_p95/AABA/year=2019/month=01/"
+  ]
+}

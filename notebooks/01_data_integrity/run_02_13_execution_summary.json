@@ -1,0 +1,102 @@
+{
+  "started_utc": "2026-02-11T18:11:45Z",
+  "duration_seconds": 83.55,
+  "results": [
+    {
+      "notebook": "02_schema_validation.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 4.59,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\02_schema_validation.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 29630 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\02_schema_validation.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "03_time_coverage.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 5.48,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\03_time_coverage.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 53775 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\03_time_coverage.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "04_calendar_definition.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 6.17,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\04_calendar_definition.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\nbformat\\__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n  validate(nb)\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 163499 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\04_calendar_definition.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "05_session_rules.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 5.88,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\05_session_rules.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 83459 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\05_session_rules.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "06_ohlcv_vs_quotes.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 7.38,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\06_ohlcv_vs_quotes.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 268811 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\06_ohlcv_vs_quotes.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "07_outliers_and_anomalies.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 7.38,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\07_outliers_and_anomalies.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 591070 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\07_outliers_and_anomalies.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "08_condition_code_eligibility.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 11.55,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\08_condition_code_eligibility.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 50230 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\08_condition_code_eligibility.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "09_sequence_timestamp_integrity.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 5.52,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\09_sequence_timestamp_integrity.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 12952 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\09_sequence_timestamp_integrity.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "10_clock_drift_qa.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 5.47,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\10_clock_drift_qa.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 10204 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\10_clock_drift_qa.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "11_nbbo_spread_sanity.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 10.15,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\11_nbbo_spread_sanity.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 36384 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\11_nbbo_spread_sanity.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "12_off_exchange_trf_reconciliation.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 8.82,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\12_off_exchange_trf_reconciliation.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 27837 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\12_off_exchange_trf_reconciliation.ipynb\n",
+      "stdout_tail": ""
+    },
+    {
+      "notebook": "13_execution_quality_external_benchmark_605.ipynb",
+      "status": "OK",
+      "returncode": 0,
+      "seconds": 5.17,
+      "stderr_tail": "[NbConvertApp] Converting notebook C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\13_execution_quality_external_benchmark_605.ipynb to notebook\nC:\\Users\\AlexJ\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.\n  self._get_loop()\n[NbConvertApp] Writing 8427 bytes to C:\\TSIS_Data\\v1\\backtest_SmallCaps\\notebooks\\01_data_integrity\\13_execution_quality_external_benchmark_605.ipynb\n",
+      "stdout_tail": ""
+    }
+  ]
+}

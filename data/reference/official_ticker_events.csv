@@ -1,0 +1,4 @@
+ticker,cik,event_type,event_date,source_name,source_doc_type,source_url,source_title,notes
+AABA,1011006,listed,2017-06-16,Nasdaq,Exchange Notice,https://altaba.com/press-releases/nasdaq-halt-trading-altaba-shares-october-2-2019/,Altaba press release mentioning start of trading as AABA,Prior to June 16 2017 Yahoo traded as YHOO
+AABA,1011006,delisted,2019-10-02,Nasdaq,Exchange Notice,https://altaba.com/press-releases/nasdaq-halt-trading-altaba-shares-october-2-2019/,Nasdaq halt and suspension process,Use effective delist/halt date for lifecycle upper bound
+AABA,1011006,delisted,2019-09-30,SEC,Form 8-K,https://www.sec.gov/Archives/edgar/data/1011006/000119312519252251/d808429d8k.htm,8-K related to suspension and dissolution timeline,Supporting evidence
