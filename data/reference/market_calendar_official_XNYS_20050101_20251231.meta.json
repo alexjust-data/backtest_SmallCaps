@@ -1,0 +1,233 @@
+{
+  "calendar": "XNYS",
+  "timezone": "America/New_York",
+  "start": "2005-01-01",
+  "end": "2025-12-31",
+  "sessions": 5283,
+  "years": 21,
+  "early_close_sessions": 45,
+  "first_session": "2005-01-03",
+  "last_session": "2025-12-31",
+  "files": [
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_XNYS_20050101_20251231.parquet",
+      "size_bytes": 171634,
+      "sha256": "8aac3ea4f7fbcaf6c394320f53acc1524bf5e5e3addbcd48ef31718bc0214228"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_XNYS_20050101_20251231.csv",
+      "size_bytes": 821437,
+      "sha256": "287da3303e05ab632084a6e545637fe199c6fef23d25508163668c6c7a62c12c"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2005.parquet",
+      "size_bytes": 14797,
+      "sha256": "877e16058a008f13aaea98e4bd75e99236a08659fd4877f2d452e20207484358"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2005.csv",
+      "size_bytes": 39278,
+      "sha256": "a9eb1fecacaa85484f09d1798199366cd1cb03e35d95f3a823f194f7cbba2bb3"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2006.parquet",
+      "size_bytes": 14857,
+      "sha256": "690413a9926e190606b04e6605701f32ff76dc5a05de92469d737745aa3085b3"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2006.csv",
+      "size_bytes": 39122,
+      "sha256": "c4731cff402a0b8a7b2edfd6d9e99891a1f01cf60e403dc1a1288ec4c3e676b1"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2007.parquet",
+      "size_bytes": 14849,
+      "sha256": "783746a9d9af3d758cc822af6c144ea17de3166d4d7da57fa5e03c9f6ae5fbd1"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2007.csv",
+      "size_bytes": 39118,
+      "sha256": "45ab82d2140c10987f279d8818eefa561203d91012631b8aacb33258c3de416b"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2008.parquet",
+      "size_bytes": 14847,
+      "sha256": "3e59098d6f9be982ab5e3b443436411bfceb907af051c54c3ecd7971a3803381"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2008.csv",
+      "size_bytes": 39432,
+      "sha256": "c104cf52cf5ba9190c429d7e3c8449be036c9fa608d2a1211c97f093cbc0813a"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2009.parquet",
+      "size_bytes": 14799,
+      "sha256": "24c2d1ea1f87b448d9d8eba6ad174566c032a76f217419eb4690697a9c31087a"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2009.csv",
+      "size_bytes": 39278,
+      "sha256": "0c36add21312659e54604c39608a8d382ba5b56d36fc7cc2130ffbdebfd42a48"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2010.parquet",
+      "size_bytes": 14849,
+      "sha256": "d6abb07fb26f8e36754cc8c42dae122af7f7c237b8de3f95cf9a420e2560b40f"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2010.csv",
+      "size_bytes": 39279,
+      "sha256": "25de946839c27c34a6ccd1562cc0bb04855f6433c42346f54b0073deaf693c67"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2011.parquet",
+      "size_bytes": 14830,
+      "sha256": "1cd987b12284615647e6c4a0b87171254b51e305352a011ceef5c8799f65aee1"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2011.csv",
+      "size_bytes": 39278,
+      "sha256": "96da9ee6767eb0d715c10692e3e94169c22417b778650fb5381c0e99299472e0"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2012.parquet",
+      "size_bytes": 14795,
+      "sha256": "b51cdcd5ad43f3cb3e5b7a765c0f970c5705d97ca63e57373d10c8bd39143d6c"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2012.csv",
+      "size_bytes": 38962,
+      "sha256": "aa97d97300c99bc7207e82e733ff6a724ed42d582ece253a4e81216ffe0a6c4d"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2013.parquet",
+      "size_bytes": 14868,
+      "sha256": "d2cce402c2c831e10973ad91dcaf5262ed21590c7ebcb3be4d6c9979a9a0281d"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2013.csv",
+      "size_bytes": 39272,
+      "sha256": "8ce1093aa0a3e54275f67f27b3b7c3cf4ffb2d58a5ed3c9160e590c3b1eda31c"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2014.parquet",
+      "size_bytes": 14832,
+      "sha256": "b679333fc6998870c6a651fc1c0ef2c49093e10c12b78faaaf1c4ed2b06b94ab"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2014.csv",
+      "size_bytes": 39275,
+      "sha256": "fdeb8a58ff246bd97ce7aad67718255dc41eaec3e6e1403bfd5f5f16213a73a2"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2015.parquet",
+      "size_bytes": 14795,
+      "sha256": "3c4e167f5a998d4bf2dbc4c56b91544c574c7789628261f479e4a75e8d4d3f80"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2015.csv",
+      "size_bytes": 39278,
+      "sha256": "1b54ebd306038874db17ca7576f4589b27be45bed3bbaaf1a3f7f03c66f14d21"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2016.parquet",
+      "size_bytes": 14815,
+      "sha256": "d5d1fdeea4485626cff058d2c0bf42f2d9e11425e83364bb51d6c27b93c0b592"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2016.csv",
+      "size_bytes": 39278,
+      "sha256": "1252f0f115a6a79af302197b4ffcc7a9f914862dbadb296377e016e699d304f2"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2017.parquet",
+      "size_bytes": 14861,
+      "sha256": "fc699fa8591c1574127ecce74fab21195001505821f6e435e73b5b12b7f0be86"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2017.csv",
+      "size_bytes": 39122,
+      "sha256": "ec84cefb1949fafae66530f14dd757abde714ff2b8f1216269e2da6fa30091e7"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2018.parquet",
+      "size_bytes": 14823,
+      "sha256": "33128ebba84e38860a01101594dd46425a3d7c35868b79c36e75d5ea21d21604"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2018.csv",
+      "size_bytes": 39115,
+      "sha256": "6a121c85cbd17e5e6303e01524c6abc027c3c7489cbc4400523332cfc174f803"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2019.parquet",
+      "size_bytes": 14858,
+      "sha256": "2b29c809efe95f13febf7eec35eed8807ddb1ed75b9e49ba4b63c83da535bc09"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2019.csv",
+      "size_bytes": 39272,
+      "sha256": "ef561e91645388b48dd90583b10728003acb1f86966cfb1e35913b32277d5212"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2020.parquet",
+      "size_bytes": 14815,
+      "sha256": "34b68258e73d55307c20966892d069b07ad18e8c1742dbae25c5e61949663a3e"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2020.csv",
+      "size_bytes": 39434,
+      "sha256": "749f4f4133a5eb6a16504e70dee2a02e4727566f767ed7ee5fa7acbd00847101"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2021.parquet",
+      "size_bytes": 14865,
+      "sha256": "1fb6c646f02b059f3a097b3c42d0d8ad6c584d59061fc7e519847da4868cc2e3"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2021.csv",
+      "size_bytes": 39279,
+      "sha256": "a42bf09d3d7927889945aa2ff07ff1fcac85fc042273aa5228ab720baedf81f0"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2022.parquet",
+      "size_bytes": 14840,
+      "sha256": "e21f5e40aa7f6403240f0a9edb71cbcdfae5ea65240df612807c6c29c3c3b8ce"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2022.csv",
+      "size_bytes": 39124,
+      "sha256": "a05e534c79b96c5c48bd9b7a77d670ec08078bbd5a439a7b76cf4b7983bcef89"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2023.parquet",
+      "size_bytes": 14841,
+      "sha256": "e3b2c0fc6fa5c73ba405b9d7d240445ebc8c93fbc32f0d3c8aa6492986324934"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2023.csv",
+      "size_bytes": 38968,
+      "sha256": "e14f7835227d8f811b72d554bf2539e498d362d217699112cb86cbaff68a912a"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2024.parquet",
+      "size_bytes": 14857,
+      "sha256": "7d7f4692593fbbbcc539531ae5a77840586ae9825829ed55b5f16a02900edc9c"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2024.csv",
+      "size_bytes": 39270,
+      "sha256": "aa4e103c0641dae8937d56a42a60a32e9046126ec3d66f690084d8661c0e342a"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2025.parquet",
+      "size_bytes": 14816,
+      "sha256": "7346679ea891db1afbb0c34cf3883f073f5778e7798b04a73f4559b08019db66"
+    },
+    {
+      "path": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\market_calendar_official_2025.csv",
+      "size_bytes": 38963,
+      "sha256": "a7e96b3092314c3ad02c23493b14bf0f27f8028b6335f74026f7f32d02a60941"
+    }
+  ]
+}

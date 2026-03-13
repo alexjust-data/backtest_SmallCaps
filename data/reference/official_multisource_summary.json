@@ -1,0 +1,43 @@
+{
+  "coverage_summary": {
+    "universe_tickers": 6114,
+    "tickers_with_any_event": 2052,
+    "tickers_with_listed_event": 2009,
+    "tickers_with_delist_signal_event": 626,
+    "tickers_with_lifecycle_list_date": 1970,
+    "tickers_with_lifecycle_delist_date": 544,
+    "coverage_any_event_pct": 33.56,
+    "coverage_listed_event_pct": 32.86,
+    "coverage_delist_signal_event_pct": 10.24,
+    "coverage_lifecycle_delist_date_pct": 8.9
+  },
+  "source_counts": {
+    "source_name": [
+      "SEC",
+      "Nasdaq"
+    ],
+    "rows": [
+      2634,
+      2
+    ]
+  },
+  "event_type_counts": {
+    "event_type": [
+      "listed",
+      "delisted"
+    ],
+    "rows": [
+      2009,
+      627
+    ]
+  },
+  "outputs": {
+    "events_csv": "data\\reference\\official_ticker_events.multisource.validated.csv",
+    "events_parquet": "data\\reference\\official_ticker_events.multisource.validated.parquet",
+    "lifecycle_csv": "data\\reference\\official_lifecycle_compiled.multisource.csv",
+    "lifecycle_parquet": "data\\reference\\official_lifecycle_compiled.multisource.parquet",
+    "coverage_csv": "data\\reference\\official_multisource_coverage_summary.csv",
+    "gaps_csv": "data\\reference\\official_multisource_gaps_by_ticker.csv",
+    "validation_json": "data\\reference\\official_multisource_validation_report.json"
+  }
+}

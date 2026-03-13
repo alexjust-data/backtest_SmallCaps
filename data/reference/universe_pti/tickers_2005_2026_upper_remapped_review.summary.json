@@ -1,0 +1,11 @@
+{
+  "rows_total": 200,
+  "candidate_exists_in_upper": 193,
+  "paths": {
+    "review_parquet": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper_remapped_review.parquet",
+    "review_csv": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper_remapped_review.csv",
+    "excluded_parquet": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper_excluded_overview404.parquet",
+    "universe_upper": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper.parquet",
+    "universe_full": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026.parquet"
+  }
+}

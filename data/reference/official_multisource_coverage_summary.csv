@@ -1,0 +1,2 @@
+universe_tickers,tickers_with_any_event,tickers_with_listed_event,tickers_with_delist_signal_event,tickers_with_lifecycle_list_date,tickers_with_lifecycle_delist_date,coverage_any_event_pct,coverage_listed_event_pct,coverage_delist_signal_event_pct,coverage_lifecycle_delist_date_pct
+6114,2052,2009,626,1970,544,33.56,32.86,10.24,8.9

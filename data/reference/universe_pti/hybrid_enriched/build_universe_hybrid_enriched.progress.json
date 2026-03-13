@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "rows_done": 15979,
+  "rows_total": 15979,
+  "progress_pct": 100.0,
+  "batches_total": 80,
+  "updated_at_utc": "2026-03-07T19:45:34.767428+00:00",
+  "output_enriched": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\hybrid_enriched\\universe_hybrid_enriched.parquet",
+  "output_qa": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\hybrid_enriched\\universe_hybrid_enriched.qa.csv",
+  "output_qa_by_status": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\hybrid_enriched\\universe_hybrid_enriched.qa.by_status.csv",
+  "output_qa_by_exchange": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\hybrid_enriched\\universe_hybrid_enriched.qa.by_exchange.csv"
+}

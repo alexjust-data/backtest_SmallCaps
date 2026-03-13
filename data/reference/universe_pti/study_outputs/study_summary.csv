@@ -1,0 +1,2 @@
+panel_rows,snapshots,min_snapshot,max_snapshot,dup_snapshot_entity,null_entity_id,pct_null_composite_figi,pct_null_share_class_figi,pct_rows_with_any_figi,qa_rows,qa_max_snapshot
+29379144,7670,2005-01-01,2025-12-31,0,0,29.03,29.04,70.97,7670,2025-12-31

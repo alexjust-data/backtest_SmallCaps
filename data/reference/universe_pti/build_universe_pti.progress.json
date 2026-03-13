@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "frequency": "daily",
+  "active_filter": "all",
+  "snapshot_index": 7738,
+  "snapshot_total": 7738,
+  "snapshot_date": "2026-03-09",
+  "progress_pct": 100.0,
+  "rows_dedup_last_snapshot": 29735570,
+  "entities_last_snapshot": 15979,
+  "successful_cuts": 7738,
+  "elapsed_sec": 409,
+  "eta_sec": 0,
+  "error": null,
+  "updated_at_utc": "2026-03-07T09:19:08.946302+00:00",
+  "checkpoint_mode": "on",
+  "checkpoint_dir": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_panel_pti_checkpoints",
+  "checkpoint_validation_issues": {}
+}

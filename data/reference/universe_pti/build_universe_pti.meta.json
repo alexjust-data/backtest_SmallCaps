@@ -1,0 +1,23 @@
+{
+  "start":"2005-01-01",
+  "end":"2026-03-09",
+  "outdir":"C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti",
+  "panel_rows":29735570,
+  "existing_panel_rows_before_append":0,
+  "existing_qa_rows_before_append":0,
+  "entities":15979,
+  "active":5256,
+  "inactive":10723,
+  "last_snapshot":"2026-03-09",
+  "last_cut_partial":false,
+  "frequency":"daily",
+  "requested_cuts":7738,
+  "successful_cuts":7738,
+  "missing_cuts":[
+
+  ],
+  "qa_coverage_by_cut":"C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\qa_coverage_by_cut.csv",
+  "checkpoint_validation_issues":{
+
+  }
+}

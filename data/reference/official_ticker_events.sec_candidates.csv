@@ -1,7 +1,4 @@
 ticker,cik,event_type,event_date,source_name,source_doc_type,source_url,source_title,notes
-AABA,1011006,listed,2017-06-16,Nasdaq,Exchange Notice,https://altaba.com/press-releases/nasdaq-halt-trading-altaba-shares-october-2-2019/,Altaba press release mentioning start of trading as AABA,Prior to June 16 2017 Yahoo traded as YHOO
-AABA,1011006,delisted,2019-09-30,SEC,Form 8-K,https://www.sec.gov/Archives/edgar/data/1011006/000119312519252251/d808429d8k.htm,8-K related to suspension and dissolution timeline,Supporting evidence
-AABA,1011006,delisted,2019-10-02,Nasdaq,Exchange Notice,https://altaba.com/press-releases/nasdaq-halt-trading-altaba-shares-october-2-2019/,Nasdaq halt and suspension process,Use effective delist/halt date for lifecycle upper bound
 AACI,2092897,listed,2026-02-17,SEC,8-A12B,https://www.sec.gov/Archives/edgar/data/2092897/000119312526054605/d833943d8a12b.htm,SEC 8-A12B filing (auto candidate),AUTO_CANDIDATE_FROM_SEC_SUBMISSIONS_NOT_FINAL
 AAT,1500217,listed,2011-01-11,SEC,8-A12B,https://www.sec.gov/Archives/edgar/data/1500217/000119312511005904/d8a12b.htm,SEC 8-A12B filing (auto candidate),AUTO_CANDIDATE_FROM_SEC_SUBMISSIONS_NOT_FINAL
 ABAT,1576873,listed,2013-10-17,SEC,8-A12G,https://www.sec.gov/Archives/edgar/data/1576873/000157687313000024/body_oroplataresources8a12g.htm,SEC 8-A12G filing (auto candidate),AUTO_CANDIDATE_FROM_SEC_SUBMISSIONS_NOT_FINAL

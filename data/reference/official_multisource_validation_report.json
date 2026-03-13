@@ -1,0 +1,36 @@
+{
+  "validation": {
+    "rows_input": 2636,
+    "rows_bad_event_date": 0,
+    "rows_bad_event_type": 0,
+    "rows_bad_url": 0,
+    "rows_rejected_by_domain": 0,
+    "rows_removed_as_duplicate": 0,
+    "rows_validated": 2636
+  },
+  "sources_input": {
+    "sec_events_csv": ".\\data\\reference\\official_ticker_events.csv",
+    "nasdaq_files": [],
+    "nyse_files": []
+  },
+  "source_counts": {
+    "source_name": [
+      "SEC",
+      "Nasdaq"
+    ],
+    "rows": [
+      2634,
+      2
+    ]
+  },
+  "event_type_counts": {
+    "event_type": [
+      "listed",
+      "delisted"
+    ],
+    "rows": [
+      2009,
+      627
+    ]
+  }
+}

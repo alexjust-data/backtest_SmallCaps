@@ -1,0 +1,16 @@
+{
+  "universe_full_rows": 15979,
+  "universe_upper_rows": 12468,
+  "overview_404_unique_tickers": 200,
+  "excluded_rows": 200,
+  "clean_rows": 12268,
+  "remap_candidate_rows": 193,
+  "paths": {
+    "universe_full": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026.parquet",
+    "universe_upper": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper.parquet",
+    "audit_csv": "D:\\reference\\_run\\download_reference_universe_polygon.audit.csv",
+    "clean_parquet": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper_clean.parquet",
+    "excluded_parquet": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper_excluded_overview404.parquet",
+    "remap_candidates_parquet": "C:\\TSIS_Data\\v1\\backtest_SmallCaps\\data\\reference\\universe_pti\\tickers_2005_2026_upper_remap_candidates.parquet"
+  }
+}

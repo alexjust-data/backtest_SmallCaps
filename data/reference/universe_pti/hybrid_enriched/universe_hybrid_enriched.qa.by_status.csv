@@ -1,0 +1,3 @@
+status,rows,final_market_cap,final_weighted_shares_outstanding,final_share_class_shares_outstanding,final_total_employees,final_sic_code,final_description,final_homepage_url,final_phone_number,final_list_date,final_delisted_utc,final_cik,final_composite_figi,final_share_class_figi,final_ticker_root,final_ticker_suffix,final_round_lot,final_address_address1,final_address_city,final_address_state,final_address_postal_code,final_branding_logo_url,final_branding_icon_url
+active,5256,97.32,97.93,94.71,89.0,81.87,98.59,95.09,83.2,99.22,0.02,99.85,79.98,79.97,99.98,3.01,99.98,83.16,83.16,81.66,82.06,81.24,61.64
+inactive,10723,49.79,49.87,95.75,27.23,67.38,34.64,32.56,67.8,50.62,100.0,94.54,50.54,50.48,100.0,5.37,100.0,67.8,67.8,67.74,67.7,12.93,8.7

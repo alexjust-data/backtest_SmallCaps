@@ -1,0 +1,5 @@
+exchange,rows,final_market_cap,final_weighted_shares_outstanding,final_share_class_shares_outstanding,final_total_employees,final_sic_code,final_description,final_homepage_url,final_phone_number,final_list_date,final_delisted_utc,final_cik,final_composite_figi,final_share_class_figi,final_ticker_root,final_ticker_suffix,final_round_lot,final_address_address1,final_address_city,final_address_state,final_address_postal_code,final_branding_logo_url,final_branding_icon_url
+ARCX,24,16.67,16.67,95.83,12.5,83.33,12.5,12.5,83.33,50.0,100.0,95.83,33.33,33.33,100.0,0.0,100.0,83.33,83.33,83.33,83.33,0.0,0.0
+XASE,1320,42.65,42.95,89.92,27.65,65.68,33.56,33.18,65.68,42.8,82.2,94.85,43.18,43.18,100.0,6.44,100.0,65.76,65.76,65.45,65.68,18.94,11.89
+XNAS,7809,77.05,77.49,95.4,60.6,79.25,69.04,64.37,80.34,79.31,57.97,97.34,67.76,67.67,99.99,4.23,99.99,80.33,80.33,79.57,79.73,44.69,32.63
+XNYS,6826,56.69,56.74,96.47,36.6,65.22,44.81,44.26,65.66,56.74,74.54,95.36,55.0,55.0,100.0,4.67,100.0,65.63,65.63,65.31,65.32,28.07,21.51
