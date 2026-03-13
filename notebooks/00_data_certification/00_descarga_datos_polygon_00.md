@@ -570,3 +570,103 @@ Primero descargar y materializar toda la capa Reference / Universe, y después c
 
   - no redescargas
   - solo cambias reglas de construcción
+
+
+
+
+  -----
+
+
+   Con lo que ya tenéis en D:\, yo descargaría esto ahora:
+
+  1. GET /v3/reference/dividends
+  Porque es de las pocas referencias estructurales importantes que no has mencionado como ya presentes en el análisis
+  causal principal.
+  Sirve para:
+
+  - enriquecer corporate actions
+  - separar mejor eventos de precio no explicados solo por splits
+  - auditar ventanas raras alrededor de ex-date / pay-date
+
+  2. GET /v3/trades/{stockTicker}
+  Pero no masivo. Lo usaría solo para casos problemáticos.
+  Es lo más valioso ahora para:
+
+  - contrastar si el problema es solo de quotes o también de trades
+  - estudiar halt / reopen
+  - confirmar si había mercado real o solo quotes degradados
+
+  3. GET /vX/reference/tickers/{id}/events
+  También prioritario.
+  Porque ya vimos que:
+
+  - splits ayudan a explicar parte del problema
+  - halts explican otra parte
+  - falta cerrar mejor:
+      - ticker changes
+      - mergers
+      - recapitalizations
+      - otros eventos corporativos
+
+  4. Halts oficiales faltantes
+  Esto no viene de Massive/Polygon, pero es el mayor hueco real:
+
+  - completar NYSE
+  - completar SEC suspensions
+    Ahora mismo vuestro master de halts es útil, pero parcial.
+    Ese es el gap más serio de referencia oficial.
+
+  ———
+
+  Lo que NO descargaría ahora, porque ya lo tenéis cubierto o sería redundante
+
+  No ahora: GET /v3/reference/tickers/{ticker}
+
+  - Ya tenéis D:\reference\overview
+  - Cobertura real: prácticamente total para vuestro universo operativo
+
+  No ahora: GET /v3/reference/splits
+
+  - Ya tenéis D:\reference\splits
+  - Cobertura prácticamente total
+
+  No ahora: GET /vX/reference/tickers/{id}/events masivo si ya está completo en D:\reference\events
+
+  - antes de descargar, verificaría si el gap es real
+  - si ya está poblado bien, solo haría refresh puntual
+
+  No ahora: GET /v2/aggs/ticker/... range
+
+  - ya tenéis D:\ohlcv_daily y D:\ohlcv_1m
+  - cobertura altísima
+  - solo lo usaría como contraste puntual, no como nueva descarga estructural
+
+  No ahora: GET /v3/quotes/{stockTicker}
+
+  - ya estáis descargando quotes masivamente
+  - no aporta una capa nueva de explicación
+
+  No ahora: fundamentals
+
+  - income statement
+  - balance sheet
+  - cash flow
+  - ratios
+  - short interest
+  - short volume
+
+  Son útiles, pero no para explicar ahora el bid > ask.
+
+  No ahora: snapshots / websocket
+
+  - sirven para real-time
+  - no para la auditoría causal histórica que estáis haciendo
+
+  ———
+
+  Mi prioridad exacta
+
+  1. dividends
+  2. trades selectivo para casos problemáticos
+  3. events si detectáis huecos reales
+  4. completar halts oficiales fuera de Polygon/Massive
