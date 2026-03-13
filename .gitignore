@@ -31,10 +31,17 @@ env/
 # ---- Data & artifacts (never commit) ----
 data/cache/
 data/derived/
+data/reference/universe_pti/tickers_panel_pti_checkpoints/
 runs/
 *.duckdb
 *.sqlite
 *.db
+
+# ---- Local runtime / vendored env ----
+backtest/Lib/
+backtest/Scripts/
+backtest/Include/
+backtest/share/jupyter/
 
 # ---- Jupyter ----
 .ipynb_checkpoints/

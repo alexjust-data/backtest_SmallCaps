@@ -1,0 +1,130 @@
+version: 1
+profile: lax_realtime_coverage
+
+data_root: "D:/Data_polygon"
+run_root: "C:/TSIS_Data/runs/polygon_realtime_audit"
+timezone: "America/New_York"
+
+runtime:
+  poll_seconds: 10
+  stats_refresh_seconds: 30
+  fail_fast: false
+  continue_on_error: true
+  max_retry_per_file: 3  # legacy name; semantica actual: max_review_attempts_per_file
+
+failure_policy:
+  # No detener descarga por validaciones de calidad; solo por corrupcion/archivo ilegible.
+  hard_fail_conditions:
+    - parquet_unreadable
+    - zero_byte_file
+    - invalid_partition_path
+  soft_fail_conditions:
+    - missing_noncritical_columns
+    - dtype_mismatch
+    - market_anomaly_rows
+  actions:
+    on_hard_fail: "enqueue_retry_and_continue"  # legacy name; semantica actual: enqueue_review_queue_and_continue
+    on_soft_fail: "warn_and_continue"
+    on_pass_with_warn: "count_coverage_and_continue"
+
+outputs:
+  validation_events: "validation_events.parquet"
+  validation_failures: "validation_failures.parquet"
+  review_queue: "retry_queue.parquet"
+  retry_queue: "retry_queue.parquet"  # legacy compatibility name
+  coverage_by_ticker: "coverage_by_ticker.parquet"
+  missing_days_by_ticker: "missing_days_by_ticker.parquet"
+  download_progress: "download_progress.parquet"
+  heartbeat_log: "heartbeat.log"
+
+datasets:
+  quotes:
+    enabled: true
+    priority: 1
+    target_path: "quotes"
+    expected_file_name: "quotes.parquet"
+    partition_pattern: "{ticker}/year={year}/month={month}/day={day}/quotes.parquet"
+    partition_keys: ["ticker", "year", "month", "day"]
+
+    # Minimo para certificar cobertura mientras descarga (modo laxo)
+    minimum_required_columns: ["timestamp", "bid_price", "ask_price"]
+    non_empty_required: true
+    min_rows_per_file: 1
+
+    # Reglas de calidad no bloqueantes
+    soft_quality_rules:
+      bid_ask_sanity:
+        enabled: true
+        expression: "bid_price <= ask_price"
+        allow_violations: true
+      non_negative_prices:
+        enabled: true
+        columns: ["bid_price", "ask_price"]
+        allow_violations: true
+
+    coverage:
+      coverage_unit: "day"
+      expected_files_per_day: 1
+      success_criteria: "file_exists_and_rows_gt_0"
+      completeness_metric: "present_days / expected_days_official_window"
+
+    retry:  # legacy section name; en produccion se interpreta como review queue / remediacion posterior
+      enabled: true
+      backoff_seconds: [30, 120, 600]
+
+  trades_ticks_2005_2025:
+    enabled: true
+    priority: 2
+    target_path: "trades_ticks_2005_2025"
+    expected_file_name: "market.parquet"
+    partition_pattern: "{ticker}/year={year}/month={month}/day={day}/market.parquet"
+    partition_keys: ["ticker", "year", "month", "day"]
+
+    # Minimo para certificar cobertura mientras descarga (modo laxo)
+    minimum_required_columns: ["timestamp", "price", "size"]
+    non_empty_required: true
+    min_rows_per_file: 1
+
+    # Reglas de calidad no bloqueantes
+    soft_quality_rules:
+      non_negative_price:
+        enabled: true
+        columns: ["price"]
+        allow_violations: true
+      positive_size:
+        enabled: true
+        columns: ["size"]
+        allow_violations: true
+      timestamp_monotonic:
+        enabled: false
+        note: "Desactivado en modo laxo para evitar frenar ingesta por desorden puntual"
+
+    coverage:
+      coverage_unit: "day"
+      expected_files_per_day: 1
+      success_criteria: "file_exists_and_rows_gt_0"
+      completeness_metric: "present_days / expected_days_official_window"
+
+    retry:  # legacy section name; en produccion se interpreta como review queue / remediacion posterior
+      enabled: true
+      backoff_seconds: [30, 120, 600]
+
+# Campos esperados desde fuente oficial de lifecycle (para calcular expected_days_official_window)
+official_window_source:
+  preferred_files:
+    - "C:/TSIS_Data/v1/backtest_SmallCaps/data/reference/official_lifecycle_compiled.csv"
+    - "C:/TSIS_Data/v1/backtest_SmallCaps/data/reference/official_ticker_events.csv"
+  fallback_mode: "observed_min_max_if_official_missing"
+
+# Convencion de severidad para panel/monitor
+severities:
+  pass: 0
+  pass_with_warn: 1
+  soft_fail: 2
+  hard_fail: 3
+
+# Comandos sugeridos para terminales (referencia)
+terminal_plan:
+  terminal_1_downloader: "python run_downloader.py --contract contracts_polygon_download.yaml --dataset quotes"
+  terminal_2_validator: "python run_validator_watch.py --contract contracts_polygon_download.yaml"
+  terminal_3_stats: "python run_stats_watch.py --contract contracts_polygon_download.yaml"
