@@ -1,0 +1,6 @@
+data/reference/universe_pti/tickers_2005_2026_upper_excluding_ohlcv_1m_missing_vs_daily_ge_2B_or_null.parquet filter=lfs diff=lfs merge=lfs -text
+data/reference/universe_pti/hybrid_enriched/universe_hybrid_enriched_with_financial_ranges.parquet filter=lfs diff=lfs merge=lfs -text
+data/reference/market_calendar_official_XNYS_20050101_20251231.parquet filter=lfs diff=lfs merge=lfs -text
+data/reference/universe_pti/tickers_2005_2026_upper.parquet filter=lfs diff=lfs merge=lfs -text
+data/reference/universe_pti/tickers_missing_in_ohlcv_1m_vs_daily.parquet filter=lfs diff=lfs merge=lfs -text
+data/reference/universe_pti/tickers_missing_in_ohlcv_1m_vs_daily_lt_2B.parquet filter=lfs diff=lfs merge=lfs -text
